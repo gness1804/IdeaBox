@@ -4,9 +4,9 @@
 
 Created by [Graham Nessler](https://github.com/gness1804) and [Adam Rice](https://github.com/adam-rice).
 
-An application to stores your ideas using Javascript and jQuery. As well as JSON and localStorage to persist data between sessions.
+An application to store your ideas using Javascript and jQuery as well as JSON and localStorage to persist data between sessions.
 
-An Idea has an id, title, a body, and a quality.
+An Idea has an id, title, body, and a quality.
 The id should be a unique identifier.
 Title and body are free-form strings.
 Quality should be one of the follow: “genius”, “plausible”, and “swill.”
@@ -33,7 +33,6 @@ When a user clicks the title or body of an idea in the list, that text should be
 The user should be able to “commit” their changes by pressing “Enter/Return” or by clicking outside of the text field.
 If the user reloads the page, their edits will be reflected.
 
-We’d like our users to be able to easily find specific ideas they already created, so let’s provide them with a filtering interface on the idea list.
 At the top of the idea list, include a text field labeled “Search”.
 As a user types in the search box, the list of ideas should filter in real time to only display ideas whose title or body include the user’s text. The page should not reload.
 Clearing the search box should restore all the ideas to the list.
